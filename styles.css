@@ -165,13 +165,15 @@ body {
 @media screen and (min-width: 50rem) {
   body {
     background-color: var(--clr--cream);
-    align-items: center;
+
+
 
   }
 
   .card {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .image,
