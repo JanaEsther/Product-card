@@ -44,7 +44,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   font-size: 0.75rem;
   min-height: 100vh;
   margin: 0 auto;
@@ -84,6 +83,13 @@ body {
 
 }
 
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+
+}
+
 .title {
   font-size: 2.2rem;
   font-weight: 700;
@@ -98,7 +104,10 @@ body {
   font-weight: 500;
   font-size: 0.80rem;
   letter-spacing: 0.3rem;
-  padding: 2.5rem 0 0.65rem 0.625rem;
+  padding: 2rem 0 0 0.64rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  ;
   text-shadow: initial;
 
 }
@@ -107,6 +116,7 @@ body {
   font-size: 0.875rem;
   color: var(--clr--grey);
   line-height: 1.5em;
+  justify-content: left;
   padding: 0.33rem 0 0 0.625rem;
 }
 
@@ -175,19 +185,25 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
 
   .image,
   .card {
-    min-height: 28rem;
+    height: 28rem;
   }
 
   .card-box {
     border-radius: 0 0.625rem 0.625rem 0;
-    padding: 0 0.938rem 0 0.625rem;
+    padding: 0.66rem 0.6rem 0.66rem 0.625rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0;
     min-width: 310px;
     margin: 0;
   }
+
+
 
   .image {
     content: url("./images/image-product-desktop.jpg");
@@ -197,15 +213,14 @@ body {
 
   .title {
     padding: 0.33rem 1rem;
+    justify-content: flex-start;
   }
 
 
-  .subtitle {
-    margin-left: 0.625rem;
-  }
 
   .paragraph {
     padding: 0.625rem 1.25rem;
+    justify-content: flex-start;
   }
 
   .button {
