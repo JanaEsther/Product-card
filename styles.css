@@ -196,7 +196,7 @@ body {
     border-radius: 0 0.625rem 0.625rem 0;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 0;
+    padding: 0.5rem 0;
     min-width: 310px;
     margin: 0;
   }
