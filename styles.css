@@ -107,7 +107,6 @@ body {
   padding: 2rem 0 0 0.64rem;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
-  ;
   text-shadow: initial;
 
 }
@@ -195,7 +194,7 @@ body {
 
   .card-box {
     border-radius: 0 0.625rem 0.625rem 0;
-    padding: 0.66rem 0.6rem 0.66rem 0.625rem;
+    /*padding: 0.66rem 0.6rem 0.66rem 0.625rem;*/
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 0;
