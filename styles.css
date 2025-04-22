@@ -75,7 +75,7 @@ body {
 .card-box {
   background-color: var(--clr--white);
   margin: 0;
-  margin-top: -0.2rem;
+  /*margin-top: -0.2rem;*/
   flex: 1 0 0;
   flex-wrap: wrap;
   padding-bottom: 5px;
@@ -102,7 +102,7 @@ body {
   text-transform: uppercase;
   color: var(--clr--grey);
   font-weight: 500;
-  font-size: 0.80rem;
+  font-size: 0.7rem;
   letter-spacing: 0.3rem;
   padding: 2rem 0 0 0.64rem;
   margin-left: 0.5rem;
