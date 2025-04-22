@@ -187,16 +187,20 @@ body {
     justify-content: center;
   }
 
-  .image,
+
   .card {
-    height: 28rem;
+    height: 27rem;
+  }
+
+  .image {
+    height: 27.3rem;
   }
 
   .card-box {
     border-radius: 0 0.625rem 0.625rem 0;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 1rem 0;
+    padding: -0.5rem 0;
     min-width: 310px;
     margin: 0;
   }
@@ -210,7 +214,7 @@ body {
   }
 
   .title {
-    padding: 0.33rem 1rem;
+    padding: 0.33rem 1.4rem;
     justify-content: flex-start;
   }
 
