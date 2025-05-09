@@ -46,7 +46,6 @@ body {
   align-items: center;
   font-size: 0.75rem;
   min-height: 100vh;
-  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -59,9 +58,7 @@ body {
   border: none;
 }
 
-.card>*+* {
-  padding: 0 .75rem;
-}
+
 
 .image {
   border: none;
@@ -75,7 +72,7 @@ body {
 .card-box {
   background-color: var(--clr--white);
   margin: 0;
-  /*margin-top: -0.2rem;*/
+  margin-top: -0.2rem;
   flex: 1 0 0;
   flex-wrap: wrap;
   padding-bottom: 5px;
@@ -87,6 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-self: start;
+  padding-left: 0.5rem;
 
 }
 
@@ -116,7 +114,7 @@ body {
   color: var(--clr--grey);
   line-height: 1.5em;
   justify-content: left;
-  padding: 0.33rem 0 0 0.625rem;
+  padding: 0.33rem 1.2rem 0 1rem;
 }
 
 .prices {
@@ -153,8 +151,9 @@ body {
   gap: 0.5rem;
   background-color: var(--clr--green-500);
   color: var(--clr--white);
-  padding: 0.938rem 4.688rem;
-  margin-left: 0.938rem;
+  padding: 0.938rem 5.8rem;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 1.25rem;
   border: none;
   border-radius: 8px;
@@ -168,7 +167,7 @@ body {
 }
 
 .button:hover,
-.button.active {
+.button:active {
   background-color: var(--clr--green-700);
 }
 
@@ -192,6 +191,10 @@ body {
     height: 27rem;
   }
 
+  .card-content {
+    padding-left: 0rem;
+  }
+
   .image {
     height: 27.3rem;
   }
@@ -200,7 +203,7 @@ body {
     border-radius: 0 0.625rem 0.625rem 0;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: -0.5rem 0;
+    padding: -2rem 0;
     min-width: 310px;
     margin: 0;
   }
@@ -218,16 +221,22 @@ body {
     justify-content: flex-start;
   }
 
-
+  .subtitle {
+    margin-left: 0.9rem;
+  }
 
   .paragraph {
-    padding: 0.625rem 1.25rem;
+    padding: 0.7rem 1.5rem;
     justify-content: flex-start;
   }
 
-  .button {
-    margin-left: 1.3rem;
+  .prices {
+    margin-left: 0.3rem;
+  }
 
+  .button {
+
+    padding: 0.938rem 5rem;
   }
 
 }
